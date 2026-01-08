@@ -1,0 +1,32 @@
+# --- Python Basics ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environment ---
+.venv/
+venv/
+env/
+
+# --- Project Specific Data ---
+# FastF1 downloads massive amounts of cache files. 
+# do not want to upload hundreds of MBs of race data.
+cache/
+
+# If you create large CSVs of all races, ignore them too.
+# (You usually keep the script to generate data, not the data itself)
+data/*.csv
+data/*.pkl
+
+# --- Jupyter Notebooks ---
+# Checkpoints are auto-generated backups you don't need
+.ipynb_checkpoints/
+
+# --- IDE Settings ---
+# VS Code settings (optional, but usually good to ignore personal settings)
+.vscode/
+
+# --- OS Junk Files ---
+.DS_Store
+Thumbs.db
